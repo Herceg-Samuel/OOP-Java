@@ -295,7 +295,6 @@ public class App {
         System.out.println("                                                         Discounts    " + discountAmount);
         System.out.println("                                                         Grand total  " + grandTotal);
         System.out.println("--------------------------------------------------------------------------------");
-
-        print.close();
+        input.close();
     }
 }
