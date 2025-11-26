@@ -8,7 +8,6 @@ public class App {
         String name;
         int age;
 
-
         System.out.println("Enter your name : ");
         name = scanner.nextLine();
 
@@ -17,9 +16,6 @@ public class App {
 
         System.out.println("Name :" + name);
         System.out.println("Name :" + age);
-
-        
-        // System.out.println("Price 1:" + price1);
 
         scanner.close();
         
