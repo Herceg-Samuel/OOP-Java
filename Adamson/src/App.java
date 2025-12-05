@@ -6,7 +6,7 @@ public class App {
         double[] unitPrice = {20.0, 50.0, 30.0, 80.0};
         double[] amount = {80.0, 500.0, 270.0, 800.0};
 
-        System.out.println("Item\t\tQty\t\tUnit Price\t\tAmount");
+        System.out.println("Qty\t\tItem\t\tUnit Price\t\tAmount");
 
         // System.out.println("Quantity");
         // for(int i=0; i < qty.length; i++){
@@ -29,7 +29,7 @@ public class App {
 
         
         for(int i=0; i < qty.length; i++){
-            System.out.println(itemDetails[i] + "\t\t" + qty[i] + "\t\t" + unitPrice[i] + "\t\t\t" + amount[i]);
+            System.out.println(qty[i] + "\t\t" + itemDetails[i] + "\t\t" + unitPrice[i] + "\t\t\t" + amount[i]);
         }
         
 
